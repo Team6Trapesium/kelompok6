@@ -4,5 +4,5 @@ w.shapeType																#mengecek writer diset tipe nya sebagai point apa, li
 w.field("kolom1","C")													#kita membuat baris 1  dengan tipe character pada file dbf
 w.field("kolom2","C")													#kita membuat baris 2  dengan tipe character pada file dbf
 w.record("ngek","satu")													#isi dari baris pertama dan kolom 1=ngek, satu
-w.poly(parts=[[[1,3],[5,3],[1,2],[5,2]]],shapeType=shapefile.POLYLINE)	#digunakan untuk menghubungkan titik titik ,sehingga akan menjadi sebuah garis.
+w.poly(parts=[[[1,3],[5,3],[1,2],[5,2]]],shapeType=shapefile.POLYLINE)	#digunakan untuk menghubungkan titik titik ,sehingga akan menjadi sebuah garis yang saling terhubung satu sama lain.
 w.save("soal7")															#untuk melakukan simpan dengan nama soal7

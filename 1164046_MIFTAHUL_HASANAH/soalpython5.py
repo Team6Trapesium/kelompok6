@@ -6,3 +6,4 @@ w.field("kolom2","C")								#kita membuat baris 2  dengan tipe character pada f
 w.record("ngek","satu") 							#isi dari baris pertama dan kolom 1=ngek, satu
 w.line(parts=[[[1,5],[5,5],[5,1],[3,3],[1,1]]])		#digunakan untuk menghubungkan titik titik ,sehingga akan menjadi sebuah garis.
 w.save("soal5") 									#untuk melakukan simpan dengan nama soal5
+
